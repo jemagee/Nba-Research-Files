@@ -1,0 +1,520 @@
+{
+
+    "resource": "shotchartdetail",
+    "parameters": 
+
+{
+
+    "LeagueID": "00",
+    "Season": "2014-15",
+    "SeasonType": "Regular Season",
+    "TeamID": 1610612761,
+    "PlayerID": 203082,
+    "GameID": "0021401175",
+    "Outcome": null,
+    "Location": null,
+    "Month": 0,
+    "SeasonSegment": null,
+    "DateFrom": null,
+    "DateTo": null,
+    "OpponentTeamID": 0,
+    "VsConference": null,
+    "VsDivision": null,
+    "Position": null,
+    "RookieYear": null,
+    "GameSegment": null,
+    "Period": 0,
+    "LastNGames": 0,
+    "ClutchTime": null,
+    "AheadBehind": null,
+    "PointDiff": null,
+    "RangeType": 2,
+    "StartPeriod": 1,
+    "EndPeriod": 10,
+    "StartRange": 0,
+    "EndRange": 28800,
+    "ContextFilter": "",
+    "ContextMeasure": "FGA"
+
+},
+"resultSets": 
+[
+
+{
+
+    "name": "Shot_Chart_Detail",
+    "headers": 
+
+[
+
+    0"GRID_TYPE",
+    1"GAME_ID",
+    2"GAME_EVENT_ID",
+    3"PLAYER_ID",
+    4"PLAYER_NAME",
+    5"TEAM_ID",
+    6"TEAM_NAME",
+    7"PERIOD",
+    8"MINUTES_REMAINING",
+    9"SECONDS_REMAINING",
+    10"EVENT_TYPE",
+    11"ACTION_TYPE",
+    12"SHOT_TYPE",
+    13"SHOT_ZONE_BASIC",
+    14"SHOT_ZONE_AREA",
+    15"SHOT_ZONE_RANGE",
+    16"SHOT_DISTANCE",
+    17"LOC_X",
+    18"LOC_Y",
+    19"SHOT_ATTEMPTED_FLAG",
+    20"SHOT_MADE_FLAG"
+
+],
+"rowSet": 
+[
+
+[
+
+    "Shot Chart Detail",
+    "0021401175",
+    40,
+    203082,
+    "Terrence Ross",
+    1610612761,
+    "Toronto Raptors",
+    1,
+    7,
+    26,
+    10  "Made Shot",
+    11 "Pullup Jump shot",
+    12 "2PT Field Goal",
+    13 "In The Paint (Non-RA)",
+    14 "Center(C)",
+    15 "8-16 ft.",
+    16  11,
+    17  18,
+    18  112,
+    19  1,
+    20  1
+
+],
+[
+
+    "Shot Chart Detail",
+    "0021401175",
+    64,
+    203082,
+    "Terrence Ross",
+    1610612761,
+    "Toronto Raptors",
+    1,
+    4,
+    57,
+    "Made Shot",
+    "Jump Shot",
+    "3PT Field Goal",
+    "Left Corner 3",
+    "Left Side(L)",
+    "24+ ft.",
+    23,
+    -237,
+    -6,
+    1,
+    1
+
+],
+[
+
+    "Shot Chart Detail",
+    "0021401175",
+    227,
+    203082,
+    "Terrence Ross",
+    1610612761,
+    "Toronto Raptors",
+    2,
+    3,
+    10,
+    "Missed Shot",
+    "Jump Shot",
+    "3PT Field Goal",
+    "Above the Break 3",
+    "Right Side Center(RC)",
+    "24+ ft.",
+    24,
+    110,
+    219,
+    1,
+    0
+
+],
+[
+
+    "Shot Chart Detail",
+    "0021401175",
+    229,
+    203082,
+    "Terrence Ross",
+    1610612761,
+    "Toronto Raptors",
+    2,
+    2,
+    57,
+    "Missed Shot",
+    "Jump Shot",
+    "3PT Field Goal",
+    "Left Corner 3",
+    "Left Side(L)",
+    "24+ ft.",
+    23,
+    -235,
+    14,
+    1,
+    0
+
+],
+[
+
+    "Shot Chart Detail",
+    "0021401175",
+    257,
+    203082,
+    "Terrence Ross",
+    1610612761,
+    "Toronto Raptors",
+    3,
+    11,
+    23,
+    "Missed Shot",
+    "Jump Shot",
+    "3PT Field Goal",
+    "Above the Break 3",
+    "Right Side Center(RC)",
+    "24+ ft.",
+    25,
+    214,
+    134,
+    1,
+    0
+
+],
+[
+
+    "Shot Chart Detail",
+    "0021401175",
+    286,
+    203082,
+    "Terrence Ross",
+    1610612761,
+    "Toronto Raptors",
+    3,
+    8,
+    12,
+    "Made Shot",
+    "Pullup Jump shot",
+    "2PT Field Goal",
+    "Mid-Range",
+    "Center(C)",
+    "16-24 ft.",
+    20,
+    0,
+    209,
+    1,
+    1
+
+],
+[
+
+    "Shot Chart Detail",
+    "0021401175",
+    303,
+    203082,
+    "Terrence Ross",
+    1610612761,
+    "Toronto Raptors",
+    3,
+    6,
+    55,
+    "Missed Shot",
+    "Jump Shot",
+    "2PT Field Goal",
+    "Mid-Range",
+    "Center(C)",
+    "8-16 ft.",
+    15,
+    58,
+    145,
+    1,
+    0
+
+],
+
+        [
+            "Shot Chart Detail",
+            "0021401175",
+            318,
+            203082,
+            "Terrence Ross",
+            1610612761,
+            "Toronto Raptors",
+            3,
+            5,
+            10,
+            "Missed Shot",
+            "Jump Shot",
+            "3PT Field Goal",
+            "Above the Break 3",
+            "Left Side Center(LC)",
+            "24+ ft.",
+            25,
+            -125,
+            227,
+            1,
+            0
+        ]
+    ]
+
+},
+{
+
+    "name": "LeagueAverages",
+    "headers": 
+
+[
+
+    "GRID_TYPE",
+    "SHOT_ZONE_BASIC",
+    "SHOT_ZONE_AREA",
+    "SHOT_ZONE_RANGE",
+    "FGA",
+    "FGM",
+    "FG_PCT"
+
+],
+"rowSet": 
+[
+
+[
+
+    "League Averages",
+    "Above the Break 3",
+    "Back Court(BC)",
+    "Back Court Shot",
+    55,
+    2,
+    0.036
+
+],
+[
+
+    "League Averages",
+    "Above the Break 3",
+    "Center(C)",
+    "24+ ft.",
+    9724,
+    3289,
+    0.338
+
+],
+[
+
+    "League Averages",
+    "Above the Break 3",
+    "Left Side Center(LC)",
+    "24+ ft.",
+    15408,
+    5259,
+    0.341
+
+],
+[
+
+    "League Averages",
+    "Above the Break 3",
+    "Right Side Center(RC)",
+    "24+ ft.",
+    15148,
+    5194,
+    0.343
+
+],
+[
+
+    "League Averages",
+    "Backcourt",
+    "Back Court(BC)",
+    "Back Court Shot",
+    427,
+    11,
+    0.026
+
+],
+[
+
+    "League Averages",
+    "In The Paint (Non-RA)",
+    "Center(C)",
+    "8-16 ft.",
+    6599,
+    2771,
+    0.42
+
+],
+[
+
+    "League Averages",
+    "In The Paint (Non-RA)",
+    "Center(C)",
+    "Less Than 8 ft.",
+    20196,
+    7693,
+    0.381
+
+],
+[
+
+    "League Averages",
+    "In The Paint (Non-RA)",
+    "Left Side(L)",
+    "8-16 ft.",
+    1706,
+    711,
+    0.417
+
+],
+[
+
+    "League Averages",
+    "In The Paint (Non-RA)",
+    "Right Side(R)",
+    "8-16 ft.",
+    2016,
+    801,
+    0.397
+
+],
+[
+
+    "League Averages",
+    "Left Corner 3",
+    "Left Side(L)",
+    "24+ ft.",
+    7374,
+    2801,
+    0.38
+
+],
+[
+
+    "League Averages",
+    "Mid-Range",
+    "Center(C)",
+    "16-24 ft.",
+    7850,
+    3130,
+    0.399
+
+],
+[
+
+    "League Averages",
+    "Mid-Range",
+    "Center(C)",
+    "8-16 ft.",
+    1963,
+    847,
+    0.431
+
+],
+[
+
+    "League Averages",
+    "Mid-Range",
+    "Left Side Center(LC)",
+    "16-24 ft.",
+    8034,
+    3153,
+    0.392
+
+],
+[
+
+    "League Averages",
+    "Mid-Range",
+    "Left Side(L)",
+    "16-24 ft.",
+    5818,
+    2282,
+    0.392
+
+],
+[
+
+    "League Averages",
+    "Mid-Range",
+    "Left Side(L)",
+    "8-16 ft.",
+    8257,
+    3239,
+    0.392
+
+],
+[
+
+    "League Averages",
+    "Mid-Range",
+    "Right Side Center(RC)",
+    "16-24 ft.",
+    8914,
+    3454,
+    0.387
+
+],
+[
+
+    "League Averages",
+    "Mid-Range",
+    "Right Side(R)",
+    "16-24 ft.",
+    5345,
+    2162,
+    0.404
+
+],
+[
+
+    "League Averages",
+    "Mid-Range",
+    "Right Side(R)",
+    "8-16 ft.",
+    7595,
+    3007,
+    0.396
+
+],
+[
+
+    "League Averages",
+    "Restricted Area",
+    "Center(C)",
+    "Less Than 8 ft.",
+    66134,
+    39735,
+    0.601
+
+],
+
+                [
+                    "League Averages",
+                    "Right Corner 3",
+                    "Right Side(R)",
+                    "24+ ft.",
+                    6987,
+                    2738,
+                    0.392
+                ]
+            ]
+        }
+    ]
+
+}
